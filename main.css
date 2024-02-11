@@ -1,0 +1,96 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #293743;
+    color: rgb(228, 228, 228);
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login {
+    max-width: 400px;
+    padding: 20px;
+    margin: 50px auto 0;
+    color: rgb(228, 228, 228);
+}
+
+#login h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#logInBtn, #logoutBtn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a6545;
+    color: rgb(228, 228, 228);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#logInBtn:hover, #logoutBtn:hover {
+    background-color: #25a962;
+}
+
+#errors {
+    color: #fa0202;
+}
+
+#profileView {
+    display: none;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: #1f2021;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.userInfo,
+.auditList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.userInfo li,
+.auditList li {
+    margin: 10px 0;
+}
+
+.lineContainer {
+    background-color: #cccccc;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.line {
+    fill: none;
+    stroke: black;
+    stroke-width: 2px;
+}
+
