@@ -82,7 +82,6 @@ input {
 }
 
 .lineContainer {
-    background-color: #cccccc;
     border: 1px solid #ccc;
     margin-top: 20px;
     padding: 10px;
@@ -90,7 +89,7 @@ input {
 
 .line {
     fill: none;
-    stroke: black;
+    stroke: #fff;
     stroke-width: 2px;
 }
 
